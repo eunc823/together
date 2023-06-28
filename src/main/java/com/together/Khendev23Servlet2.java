@@ -18,7 +18,7 @@ public class Khendev23Servlet2 extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		
+		response.setContentType("text/html;charset=UTF-8");
 		response.getWriter().append("오늘 점심은 육전식당 냉면이다.");
 	}
 
