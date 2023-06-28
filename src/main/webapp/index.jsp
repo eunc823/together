@@ -8,6 +8,6 @@
 </head>
 <body>
 	<h1>Together App</h1>
-	
+	<a href = "<%= request.getContextPath() %>/khendev23">khendev23</a>
 </body>
 </html>
