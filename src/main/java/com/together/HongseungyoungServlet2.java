@@ -19,7 +19,7 @@ public class HongseungyoungServlet2 extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("오잉");
+		response.getWriter().append("zzz");
 	}
 
 }
