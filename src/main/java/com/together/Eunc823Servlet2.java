@@ -18,7 +18,7 @@ public class Eunc823Servlet2 extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		request.setCharacterEncoding("utf-8");
+		response.setContentType("text/html;charset=UTF-8");
 		response.getWriter().append("하위 ㅋ");
 	}
 
